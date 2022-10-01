@@ -1,0 +1,90 @@
+.invert {
+    filter: invert(1);
+    -webkit-filter: invert(1);
+}
+
+.shadow-img {
+    filter: drop-shadow(2px 4px 6px black);
+    -webkit-filter: drop-shadow(2px 4px 6px black);
+}
+
+.object-cover {
+    object-fit: cover
+}
+
+/* z-index */
+.z0 {
+    z-index: 0;
+}
+
+.z1 {
+    z-index: 1;
+}
+
+.z2 {
+    z-index: 2;
+}
+
+.z3 {
+    z-index: 3;
+}
+
+/* Header */
+
+nav div .navbar-nav a {
+    color: gray;
+}
+
+nav div .navbar-nav a:hover {
+    color: rgb(155, 193, 220)
+}
+
+nav div .navbar-nav .active {
+    color: rgb(162, 236, 255) !important
+}
+
+nav div .navbar-nav .disabled {
+    color: rgb(62, 98, 107) !important
+}
+
+/* Main */
+
+.banner {
+    height: 75vh;
+}
+
+.banner>img {
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Footer */
+
+footer {
+    font-size: 0.9rem;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #2BC6EC 0%, #9599e2 29%)
+}
+
+footer a {
+    text-decoration: none;
+    color: white
+}
+
+footer a:hover {
+    color: rgb(181, 252, 248);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -ms-transition: .5s all;
+    -o-transition: .5s all;
+}
+
+footer div {
+    color: white;
+}
